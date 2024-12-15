@@ -9,3 +9,7 @@ spark-etl.py: The main Spark script used for ETL operations.
 commands.py: Scripts for AWS EMR cluster setup and management.
 
 data/: Directory containing the dataset used in the ETL process.
+
+## Spark Script
+
+The spark-etl.py is a Python script that uses Apache Spark to perform ETL operations. It reads data from an input directory, processes it by adding a timestamp, and writes the result to an output directory in Parquet format.
